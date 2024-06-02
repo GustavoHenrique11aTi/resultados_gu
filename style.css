@@ -107,22 +107,22 @@ body{
 }
 
 
-.Resumo_reacao {
+.resumo_reacao {
     background: var(--reacao-bg) var(--resumo-div-bg);
     color: var(--reacao-bg);
 }
 
-.Resumo_memoria {
+.resumo_memoria {
     background: var(--memoria-bg) var(--resumo-div-bg);
     color: var(--memoria-bg);
 }
 
-.Resumo_verbal {
+.resumo_verbal {
     background: var(--verbal-bg) var(--resumo-div-bg);
     color: var(--verbal-bg);
 }
 
-.Resumo_visual {
+.resumo_visual {
     background: var(--visual-bg) var(--resumo-div-bg);
     color: var(--visual-bg);
 }
@@ -200,6 +200,18 @@ main {
 .Resumo h2 {
     font-size: 2.4rem;
     margin-bottom: 3rem;
+}
+.Resumo div {
+    font-size: 1.8rem;
+}
+
+.Resumo button {
+    margin-top: 2.4rem;
+}
+
+.Resumo button:hover {
+    background: var(--Resultado-bg);
+    cursor: pointer;
 }
 }
     
