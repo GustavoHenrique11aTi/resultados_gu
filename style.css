@@ -17,10 +17,12 @@
     --memoria-bg: #FFB21E;
     --verbal-bg: #00BB8F;
     --visual-bg: #1125D6;
+    --very-light-blue: #ECF2FF;
 }
 
 body{
     font-size: 1.6rem;
+    background: var(--very-light-blue);
 }
 
 .Resultado {
@@ -138,5 +140,66 @@ body{
 }
 
 
+@media (min-width: 736px) {
+    body {
+        min-height: 100svh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } 
+}
+    
+ 
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* width: 80%; */
+    width: 736px;
+    background: var(--white);
+    border-radius: 3.2rem;
+}
 
+.Resultado {
+    padding-block: 3.8rem;
+    border-radius: 3.2rem;
+}
 
+.Resultado h1 {
+    font-size: 2.4rem;
+    margin-bottom: 3.6rem;
+}
+
+.Resultado div {
+    width: 20rem;
+    height: 20rem;
+    margin-bottom: 2.8rem;
+}
+
+.Resultado div strong:nth-of-type(1) {
+    font-size: 7.2rem;
+}
+
+.Resultado div strong:nth-of-type(2) {
+  font-size: 1.8rem;
+}
+
+.Resultado h2 {
+    font-size: 3.2rem;
+    margin-bottom: 1.6rem;
+}
+
+.Resultado p {
+    font-size: 1.8rem;
+}
+
+.Resumo {
+    padding: 3.8rem 4rem;
+    border-radius: 3.2rem;
+}
+
+.Resumo h2 {
+    font-size: 2.4rem;
+    margin-bottom: 3rem;
+}
+}
+    
